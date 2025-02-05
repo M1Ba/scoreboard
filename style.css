@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Wallpoet&display=swap');
+
+h1, h2, h3, h4, h5 {
+    font-weight: 300;
+}
+
+body {
+    font-family: "Lexend Deca", serif;
+    font-size: 80px;
+    color: #ffffff;
+
+    margin: 0;
+    padding: 0;
+
+    background-color: #755cbf;
+}
+
+/* container */
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* tables */
+.table-name {
+    font-weight: 700;
+    text-shadow: 5px 1px 1px rgb(122, 65, 227);
+}
+
+/* card */
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* score-block */
+.score-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #451d38;
+    width: 400px;
+    height: 250px;
+
+    border: 5px solid #6b3a5b;
+    border-radius: 30px;
+}
+
+/* score-number */
+.score-num {
+    font-family: Wallpoet, serif;
+    font-size: 120px;
+    font-weight: 400;
+    color: #eb4747;
+}
+
+/* buttons */
+.buttons {
+
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.btn {
+    transition: transform 0.3s ease-in-out;
+
+    padding: 30px;
+    background-color: #7a3636;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px #fff;
+    text-align: center;
+    width: 100px;
+
+    border: none;
+    font-family: Wallpoet, serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #eb4747;
+}
+
+/* new-game */
+.new-game {
+    text-align: center;
+}
+
+.new-game-button {
+    border: none;
+    border-radius: 20px;
+    background-color: #7a3636;
+    color: #eb4747;
+
+    padding: 30px;
+    margin: 70px 0;
+    font-size: 32px;
+}

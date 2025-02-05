@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card" id="home">
+            <h3 class="table-name">HOME</h3>
+            <div class="score-block">
+                <h4 id="home-score" class="score-num">0</h4>
+            </div>
+            <div class="buttons">
+                <button onclick="homePlus(1)" id="home-plus1" class="btn btn-plus1">+1</button>
+                <button onclick="homePlus(2)" id="home-plus2" class="btn btn-plus2">+2</button>
+                <button onclick="homePlus(3)" id="home-plus3" class="btn btn-plus3">+3</button>
+            </div>
+        </div>
+        <div class="card" id="guest">
+            <h3 class="table-name">GUEST</h3>
+            <div class="score-block">
+                <h4 id="guest-score" class="score-num">0</h4>
+            </div>
+            <div class="buttons">
+                <button onclick="guestPlus(1)" id="guest-plus1" class="btn btn-plus1">+1</button>
+                <button onclick="guestPlus(2)" id="guest-plus2" class="btn btn-plus2">+2</button>
+                <button onclick="guestPlus(3)" id="guest-plus3" class="btn btn-plus3">+3</button>
+            </div>
+        </div>
+    </div>
+    <div class="new-game">
+        <button onclick="newGame()" class="new-game-button" id="new-game">NEW GAME</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
